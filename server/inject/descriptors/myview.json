@@ -3,12 +3,12 @@
   "properties": {
     "ismyview": {
       "type": "identifier",
-      "selector": "body",
+      "selector": ".subtle[href]",
       "control": "exists"
     },
     "viewissueslink": {
       "type": "action",
-      "selector": "body",
+      "selector": "a[href]",
       "control": "property.innerText"
     }
   },
