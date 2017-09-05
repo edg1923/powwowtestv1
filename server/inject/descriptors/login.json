@@ -50,7 +50,7 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "font",
+      "selector": "[name=\"perm_login\"]",
       "control": "property.innerText"
     }
   },
