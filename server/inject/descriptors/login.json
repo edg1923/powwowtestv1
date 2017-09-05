@@ -47,6 +47,11 @@
       },
       "selector": ".button",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "string",
+      "selector": "font",
+      "control": "property.innerText"
     }
   },
   "connect": []
