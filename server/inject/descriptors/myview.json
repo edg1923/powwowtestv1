@@ -9,7 +9,7 @@
     "viewissueslink": {
       "type": "action",
       "selector": "a[href]",
-      "control": "property.innerText"
+      "control": "action.link"
     }
   },
   "connect": []
