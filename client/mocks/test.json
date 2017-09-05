@@ -1,1 +1,19 @@
-{}
+{
+  "issuesList": [
+    {
+      "id": "123",
+      "severity": "high",
+      "summary": "test1"
+    },
+    {
+      "id": "124",
+      "severity": "low",
+      "summary": "test2"
+    },
+    {
+      "id": "125",
+      "severity": "medium",
+      "summary": "test3"
+    }
+  ]
+}
