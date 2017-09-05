@@ -38,19 +38,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
-          },
-          "assignedto": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            }
-          },
-          "updated": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 7,
+            "control": "property.innerText"
           }
         }
       },
