@@ -10,7 +10,8 @@
     "viewissueslink": {
       "type": "action",
       "selector": "a[href]",
-      "control": "action.link"
+      "control": "action.link",
+      "selectContains": "View Issues"
     }
   },
   "connect": [
