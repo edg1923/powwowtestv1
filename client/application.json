@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "2b263314",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdledgom"
+  "creatorId": "gdledgom",
+  "id": "powwowtestv1",
+  "previewImageURL": "/previews/2b263314-powwowtestv1/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/edg1923/powwowtestv1",
+  "creatorName": "Edgar Eduardo"
 }
