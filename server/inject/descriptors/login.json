@@ -50,7 +50,7 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "[name=\"perm_login\"]",
+      "selector": "body > div:nth-child(5) > form > table > tbody > tr:nth-child(4) > td:nth-child(2) > input[type=\"checkbox\"]",
       "control": "property.innerText"
     }
   },
