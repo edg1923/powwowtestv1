@@ -51,7 +51,7 @@
     "isLogin": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "login"
     }
   },
