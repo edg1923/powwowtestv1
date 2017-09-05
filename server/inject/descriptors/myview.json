@@ -4,6 +4,11 @@
     "ismyview": {
       "type": "identifier",
       "selector": "body",
+      "control": "exists"
+    },
+    "viewissueslink": {
+      "type": "action",
+      "selector": "body",
       "control": "property.innerText"
     }
   },
