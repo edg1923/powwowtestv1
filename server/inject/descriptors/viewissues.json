@@ -52,7 +52,7 @@
     },
     "isViewIssues": {
       "type": "identifier",
-      "selector": ".floatleft",
+      "selector": "#buglist > tbody > tr:nth-child(1) > td > span:nth-child(1)",
       "control": "exists",
       "selectContains": "Viewing Issues"
     }
