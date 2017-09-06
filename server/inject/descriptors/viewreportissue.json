@@ -3,7 +3,9 @@
   "comment": "Forms",
   "properties": {
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": "body > div:nth-child(6) > form > table > tbody > tr:nth-child(16) > td.center > input",
+      "control": "action.button"
     },
     "category": {
       "type": "select",
