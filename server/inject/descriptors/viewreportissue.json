@@ -37,7 +37,9 @@
       "label": "TextArea",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "body > div:nth-child(6) > form > table > tbody > tr:nth-child(9) > td:nth-child(2) > input[type=\"text\"]",
+      "control": "property.innerText"
     },
     "description": {
       "type": "string",
