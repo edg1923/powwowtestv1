@@ -135,9 +135,19 @@
     "type": "object",
     "comment": "Forms",
     "properties": {
-      "string": {
-        "type": "string",
-        "label": "TextInput",
+      "submit": {
+        "type": "action"
+      },
+      "category": {
+        "type": "select",
+        "label": "MultiSelect",
+        "update": {
+          "type": "none"
+        }
+      },
+      "severity": {
+        "type": "select",
+        "label": "MultiSelect",
         "update": {
           "type": "action",
           "action": [
@@ -145,17 +155,11 @@
           ]
         }
       },
-      "string2": {
-        "type": "string",
-        "label": "TextInput",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
+      "priority": {
+        "type": "select",
+        "label": "Radio"
       },
-      "string3": {
+      "summary": {
         "type": "string",
         "label": "TextArea",
         "update": {
@@ -165,53 +169,9 @@
           ]
         }
       },
-      "multiSelectData": {
-        "type": "select",
-        "label": "MultiSelect",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "multiSelectData2": {
-        "type": "select",
-        "label": "MultiSelect",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "radioData": {
-        "type": "select",
-        "label": "Radio"
-      },
-      "boolean": {
-        "type": "boolean",
-        "label": "CheckBoxes",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "boolean2": {
-        "type": "boolean",
-        "label": "CheckBoxes",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "name": {
+      "description": {
         "type": "string",
-        "label": "Name",
+        "label": "TextInput",
         "update": {
           "type": "action",
           "action": [
@@ -219,28 +179,15 @@
           ]
         }
       },
-      "email": {
+      "file": {
         "type": "string",
-        "label": "Email",
+        "label": "TextInput",
         "update": {
           "type": "action",
           "action": [
             "submit"
           ]
         }
-      },
-      "phone": {
-        "type": "string",
-        "label": "Phone",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "submit": {
-        "type": "action"
       }
     }
   }
