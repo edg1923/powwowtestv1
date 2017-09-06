@@ -61,6 +61,12 @@
           "submit"
         ]
       }
+    },
+    "isReportIssue": {
+      "type": "identifier",
+      "selector": "body > div:nth-child(6) > form > table > tbody > tr:nth-child(1) > td",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": []
