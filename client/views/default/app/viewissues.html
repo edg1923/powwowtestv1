@@ -7,7 +7,13 @@
         <ion-nav-title data-comp-id="nav-title.1">Issues List</ion-nav-title>
         <ion-nav-buttons side="right"></ion-nav-buttons>
     </ion-nav-bar>
+    <button class="button button-icon ion-ios-arrow-left" data-comp-id="button.2"
+        ng-click="app.go('app.login')"></button>
+    <i class="icon ion-information-circled" data-comp-id="icon.1"></i>
     <ion-content class="" data-comp-id="ionic-content.1">
+        <button
+            class="button button-block button-positive icon-left button-footer-center energized-icon"
+            data-comp-id="button.3">Add report issue</button>
         <div data-comp-id="div.1">
             <div class="row" data-comp-id="row.1" ng-repeat="item in data.issueslist"
                 style="border-bottom: 1px solid rgb(221, 221, 221);">
@@ -20,11 +26,11 @@
                     </div>
                     <div class="row" data-comp-id="row.3">
                         <div class="col" data-comp-id="column.3">
-                            <i class="icon fa-icon fa-flag" data-comp-id="icon.1"
+                            <i class="icon fa-icon fa-flag" data-comp-id="icon.2"
                                 style="float: left; font-size: 12px; color: rgb(153, 153, 153);"></i>
                             <div data-comp-id="text.2" ng-bind="item.severity"
                                 style="float: left; font-size: 14px; margin: 0px 0px 0px 4px; color: rgb(102, 102, 102);">minor</div>
-                            <i class="icon fa-icon fa-user" data-comp-id="icon.2"
+                            <i class="icon fa-icon fa-user" data-comp-id="icon.3"
                                 style="float: left; color: rgb(153, 153, 153); margin: 0px 0px 0px 12px; font-size: 12px;"></i>
                             <div data-comp-id="text.3" ng-bind="item.assignedto"
                                 style="font-size: 14px; float: left; margin: 0px 0px 0px 4px; color: rgb(102, 102, 102);">Ryan Smith</div>
@@ -62,7 +68,7 @@
                 <div class="col text-right col-10" data-comp-id="column.9" style="padding: 0px;">
                     <div class="row" data-comp-id="row.7">
                         <div class="col" data-comp-id="column.10">
-                            <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.3"
+                            <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.4"
                                 style="font-size: 32px; margin: 36px 0px 0px; padding: 12px 0px;"></i>
                         </div>
                     </div>
@@ -70,4 +76,27 @@
             </div>
         </div>
     </ion-content>
+    <div class="footer-button-bar" data-comp-id="footer-bar-buttons.1"
+        dynamic-floating-footer="">
+        <div class="row" data-comp-id="row.8" style="padding: 0px;">
+            <div class="col" data-comp-id="column.11" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.1">
+                    <button class="button icon button-round button-shadowed ion-arrow-left-c"></button>
+                    <div class="label"></div>
+                </div>
+            </div>
+            <div class="col text-center" data-comp-id="column.12" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.2">
+                    <button class="button icon button-round button-shadowed ion-plus-round"></button>
+                    <div class="label"></div>
+                </div>
+            </div>
+            <div class="col text-right" data-comp-id="column.13" style="padding: 0px;">
+                <div class="footer-button" data-comp-id="footerButton.3">
+                    <button class="button icon ion-arrow-right-c button-round button-shadowed"></button>
+                    <div class="label"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </ion-view>
