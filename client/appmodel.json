@@ -209,26 +209,6 @@
           ]
         }
       },
-      "date": {
-        "type": "date",
-        "label": "Date",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
-      "time": {
-        "type": "time",
-        "label": "Time",
-        "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
-        }
-      },
       "name": {
         "type": "string",
         "label": "Name",
