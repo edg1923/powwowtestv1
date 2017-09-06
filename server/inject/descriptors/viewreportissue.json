@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "comment": "Forms",
+  "properties": {
+    "submit": {
+      "type": "action"
+    },
+    "category": {
+      "type": "select",
+      "label": "MultiSelect",
+      "update": {
+        "type": "none"
+      }
+    },
+    "severity": {
+      "type": "select",
+      "label": "MultiSelect",
+      "update": {
+        "type": "none"
+      }
+    },
+    "priority": {
+      "type": "select",
+      "label": "Radio",
+      "update": {
+        "type": "none"
+      }
+    },
+    "summary": {
+      "type": "string",
+      "label": "TextArea",
+      "update": {
+        "type": "none"
+      }
+    },
+    "description": {
+      "type": "string",
+      "label": "TextInput",
+      "update": {
+        "type": "none"
+      }
+    },
+    "file": {
+      "type": "string",
+      "label": "TextInput",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      }
+    }
+  },
+  "connect": []
+}
