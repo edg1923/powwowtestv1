@@ -149,34 +149,28 @@
         "type": "select",
         "label": "MultiSelect",
         "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
+          "type": "none"
         }
       },
       "priority": {
         "type": "select",
-        "label": "Radio"
+        "label": "Radio",
+        "update": {
+          "type": "none"
+        }
       },
       "summary": {
         "type": "string",
         "label": "TextArea",
         "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
+          "type": "none"
         }
       },
       "description": {
         "type": "string",
         "label": "TextInput",
         "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
+          "type": "none"
         }
       },
       "file": {
