@@ -46,7 +46,9 @@
       "label": "TextInput",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "body > div:nth-child(6) > form > table > tbody > tr:nth-child(10) > td:nth-child(2) > textarea",
+      "control": "property.innerText"
     },
     "file": {
       "type": "string",
