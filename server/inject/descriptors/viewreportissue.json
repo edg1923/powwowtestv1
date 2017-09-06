@@ -5,7 +5,7 @@
     "submit": {
       "type": "action",
       "selector": "body > div:nth-child(6) > form > table > tbody > tr:nth-child(16) > td.center > input",
-      "control": "action.button"
+      "control": "action.link"
     },
     "category": {
       "type": "select",
