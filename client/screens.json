@@ -47,6 +47,13 @@
       "name": "test1",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
+    },
+    {
+      "id": "viewreportissue",
+      "name": "viewReportIssue",
+      "sourceScreenId": "app.formlarge.formlargeconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "viewreportissue"
     }
   ],
   "sourceAppId": "_blank",
