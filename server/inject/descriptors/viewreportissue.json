@@ -28,7 +28,9 @@
       "label": "Radio",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "body > div:nth-child(6) > form > table > tbody > tr:nth-child(5) > td:nth-child(2) > select",
+      "control": "select"
     },
     "summary": {
       "type": "string",
