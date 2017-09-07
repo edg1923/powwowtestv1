@@ -78,5 +78,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.tabledataconfident', {
+        views: {
+            app: {
+                controller: 'app_tabledataconfident',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.tabledataconfident');
+                }
+            }
+        }
     });
 });
